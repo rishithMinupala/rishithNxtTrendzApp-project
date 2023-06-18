@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.cart-summary {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+
+  align-items: flex-start;
+  align-self: flex-end;
+}
+span {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 28px;
+}
+.total-head {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 32px;
+  color: #171f46;
+  margin-bottom: 10px;
+}
+
+.total-para {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 17px;
+  color: #616e7c;
+  margin-top: 0px;
+}
+.total-but {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-width: 0px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
